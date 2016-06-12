@@ -1,0 +1,87 @@
+body{
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	background-color: #F0FFFF;
+}
+
+/** HEADER **/
+
+#header-nav{
+	background-color: #F4A460;
+  	border-radius: 0;
+  	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 20px;
+}
+
+.navbar-brand h1 {
+	color: 	#2F4F4F;
+	font-size: 1.5em;
+ 	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .75;
+}
+
+#nav-list a {
+	color: 	#2F4F4F; 	/* change */
+  	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #F0FFFF;	/* change */
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #2E8B57;	/* change */
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+/** MAIN CONTENT **/
+
+#page-heading h2{
+	font-size: 1.8em;
+	margin-bottom: 20px;
+	color: SeaGreen;
+}
+
+.box{
+	border: 1px solid black;
+	height: auto;
+	width: 100%;
+	padding: 0px 10px 10px 10px;
+	background-color: #008B8B;
+	margin-bottom: 20px;
+	color: #FFF5EE;
+}
+
+.box a{
+	color: #FFF5EE;
+	text-transform:capitalize;
+	text-decoration: underline;
+}
+
+#chicken, #beef, #sushi{
+	font-size: 1.4em;
+}
+
+/** EXTRA SMALL SCREENS **/
+
+@media (max-width: 767PX) {}
+
+/** SMALL SCREENS **/
+
+@media (min-width: 768PX) and (max-width: 991PX) {}
+
+/** MEDIUM SCREENS **/
+
+@media (min-width: 992PX) and (max-width: 1199Px) {}
